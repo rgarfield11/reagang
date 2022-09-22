@@ -11,6 +11,7 @@ function Navbar() {
         <ul>
           <CustomLink to="/about">About</CustomLink>
           <CustomLink to="/resume">Resume</CustomLink>
+          <CustomLink to="/contact">Contact</CustomLink>
         </ul>
     </nav>
   )
