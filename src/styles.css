@@ -53,31 +53,59 @@ body {
     text-align: center;
 }
 
-.home h1 {
-    margin: 0;
+.home-name {
+    margin-top: 15%;
 }
-.home h3 {
+
+.home-name h1 {
     margin: 0;
 }
 
 .profile {
-    margin-top: 5rem;
+    margin-top: 5%;
     width: 20rem;
     border-radius: 50%;
+    box-shadow: 0px 3px 3px rgb(141, 141, 141);
 }
 
 .form-info {
+    font-family: inherit;
     margin: 1rem;
     height: 2rem;
-    width: 30%;
+    width: 20rem;
     font-size: 1rem;
-    padding: .25rem;
+    padding: .5rem;
+    border-style: inherit;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px rgb(207, 207, 207);
 }
 
 .form-message {
+    font-family: inherit;
     margin: 1rem;
-    height: 10rem;
-    width: 50%;
+    height: 15rem;
+    width: 20rem;
     font-size: 1rem;
-    padding: .25rem; 
+    padding: .5rem; 
+    border-style: inherit;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px rgb(207, 207, 207);
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: white;
+    color: #416275;
+    border: none;
+    padding: .5rem;
+    border-style: solid;
+    border-color: #416275;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: #416275;
+    color: white;
+    transition: 0.75s;
 }
